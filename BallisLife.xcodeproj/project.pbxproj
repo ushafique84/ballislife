@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B61639391C6D170200ACA039 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61639381C6D170200ACA039 /* AppDelegate.swift */; };
+		B616393B1C6D170200ACA039 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B616393A1C6D170200ACA039 /* ViewController.swift */; };
+		B616393E1C6D170200ACA039 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B616393C1C6D170200ACA039 /* Main.storyboard */; };
+		B61639401C6D170200ACA039 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B616393F1C6D170200ACA039 /* Assets.xcassets */; };
+		B61639431C6D170200ACA039 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B61639411C6D170200ACA039 /* LaunchScreen.storyboard */; };
+		B616394E1C6D170200ACA039 /* BallisLifeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B616394D1C6D170200ACA039 /* BallisLifeTests.swift */; };
+		B61639591C6D170200ACA039 /* BallisLifeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61639581C6D170200ACA039 /* BallisLifeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B616394A1C6D170200ACA039 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B616392D1C6D170200ACA039 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B61639341C6D170200ACA039;
+			remoteInfo = BallisLife;
+		};
+		B61639551C6D170200ACA039 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B616392D1C6D170200ACA039 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B61639341C6D170200ACA039;
+			remoteInfo = BallisLife;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B61639351C6D170200ACA039 /* BallisLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BallisLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B61639381C6D170200ACA039 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B616393A1C6D170200ACA039 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B616393D1C6D170200ACA039 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B616393F1C6D170200ACA039 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B61639421C6D170200ACA039 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B61639441C6D170200ACA039 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B61639491C6D170200ACA039 /* BallisLifeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BallisLifeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B616394D1C6D170200ACA039 /* BallisLifeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallisLifeTests.swift; sourceTree = "<group>"; };
+		B616394F1C6D170200ACA039 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B61639541C6D170200ACA039 /* BallisLifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BallisLifeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B61639581C6D170200ACA039 /* BallisLifeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallisLifeUITests.swift; sourceTree = "<group>"; };
+		B616395A1C6D170200ACA039 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B61639321C6D170200ACA039 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B61639461C6D170200ACA039 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B61639511C6D170200ACA039 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B616392C1C6D170200ACA039 = {
+			isa = PBXGroup;
+			children = (
+				B61639371C6D170200ACA039 /* BallisLife */,
+				B616394C1C6D170200ACA039 /* BallisLifeTests */,
+				B61639571C6D170200ACA039 /* BallisLifeUITests */,
+				B61639361C6D170200ACA039 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B61639361C6D170200ACA039 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B61639351C6D170200ACA039 /* BallisLife.app */,
+				B61639491C6D170200ACA039 /* BallisLifeTests.xctest */,
+				B61639541C6D170200ACA039 /* BallisLifeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B61639371C6D170200ACA039 /* BallisLife */ = {
+			isa = PBXGroup;
+			children = (
+				B61639381C6D170200ACA039 /* AppDelegate.swift */,
+				B616393A1C6D170200ACA039 /* ViewController.swift */,
+				B616393C1C6D170200ACA039 /* Main.storyboard */,
+				B616393F1C6D170200ACA039 /* Assets.xcassets */,
+				B61639411C6D170200ACA039 /* LaunchScreen.storyboard */,
+				B61639441C6D170200ACA039 /* Info.plist */,
+			);
+			path = BallisLife;
+			sourceTree = "<group>";
+		};
+		B616394C1C6D170200ACA039 /* BallisLifeTests */ = {
+			isa = PBXGroup;
+			children = (
+				B616394D1C6D170200ACA039 /* BallisLifeTests.swift */,
+				B616394F1C6D170200ACA039 /* Info.plist */,
+			);
+			path = BallisLifeTests;
+			sourceTree = "<group>";
+		};
+		B61639571C6D170200ACA039 /* BallisLifeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B61639581C6D170200ACA039 /* BallisLifeUITests.swift */,
+				B616395A1C6D170200ACA039 /* Info.plist */,
+			);
+			path = BallisLifeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B61639341C6D170200ACA039 /* BallisLife */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B616395D1C6D170200ACA039 /* Build configuration list for PBXNativeTarget "BallisLife" */;
+			buildPhases = (
+				B61639311C6D170200ACA039 /* Sources */,
+				B61639321C6D170200ACA039 /* Frameworks */,
+				B61639331C6D170200ACA039 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BallisLife;
+			productName = BallisLife;
+			productReference = B61639351C6D170200ACA039 /* BallisLife.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B61639481C6D170200ACA039 /* BallisLifeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B61639601C6D170200ACA039 /* Build configuration list for PBXNativeTarget "BallisLifeTests" */;
+			buildPhases = (
+				B61639451C6D170200ACA039 /* Sources */,
+				B61639461C6D170200ACA039 /* Frameworks */,
+				B61639471C6D170200ACA039 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B616394B1C6D170200ACA039 /* PBXTargetDependency */,
+			);
+			name = BallisLifeTests;
+			productName = BallisLifeTests;
+			productReference = B61639491C6D170200ACA039 /* BallisLifeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B61639531C6D170200ACA039 /* BallisLifeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B61639631C6D170200ACA039 /* Build configuration list for PBXNativeTarget "BallisLifeUITests" */;
+			buildPhases = (
+				B61639501C6D170200ACA039 /* Sources */,
+				B61639511C6D170200ACA039 /* Frameworks */,
+				B61639521C6D170200ACA039 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B61639561C6D170200ACA039 /* PBXTargetDependency */,
+			);
+			name = BallisLifeUITests;
+			productName = BallisLifeUITests;
+			productReference = B61639541C6D170200ACA039 /* BallisLifeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B616392D1C6D170200ACA039 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = AAUS;
+				TargetAttributes = {
+					B61639341C6D170200ACA039 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					B61639481C6D170200ACA039 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = B61639341C6D170200ACA039;
+					};
+					B61639531C6D170200ACA039 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = B61639341C6D170200ACA039;
+					};
+				};
+			};
+			buildConfigurationList = B61639301C6D170200ACA039 /* Build configuration list for PBXProject "BallisLife" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B616392C1C6D170200ACA039;
+			productRefGroup = B61639361C6D170200ACA039 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B61639341C6D170200ACA039 /* BallisLife */,
+				B61639481C6D170200ACA039 /* BallisLifeTests */,
+				B61639531C6D170200ACA039 /* BallisLifeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B61639331C6D170200ACA039 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B61639431C6D170200ACA039 /* LaunchScreen.storyboard in Resources */,
+				B61639401C6D170200ACA039 /* Assets.xcassets in Resources */,
+				B616393E1C6D170200ACA039 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B61639471C6D170200ACA039 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B61639521C6D170200ACA039 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B61639311C6D170200ACA039 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B616393B1C6D170200ACA039 /* ViewController.swift in Sources */,
+				B61639391C6D170200ACA039 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B61639451C6D170200ACA039 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B616394E1C6D170200ACA039 /* BallisLifeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B61639501C6D170200ACA039 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B61639591C6D170200ACA039 /* BallisLifeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B616394B1C6D170200ACA039 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B61639341C6D170200ACA039 /* BallisLife */;
+			targetProxy = B616394A1C6D170200ACA039 /* PBXContainerItemProxy */;
+		};
+		B61639561C6D170200ACA039 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B61639341C6D170200ACA039 /* BallisLife */;
+			targetProxy = B61639551C6D170200ACA039 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B616393C1C6D170200ACA039 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B616393D1C6D170200ACA039 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B61639411C6D170200ACA039 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B61639421C6D170200ACA039 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B616395B1C6D170200ACA039 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B616395C1C6D170200ACA039 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B616395E1C6D170200ACA039 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BallisLife/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aaus.BallisLife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B616395F1C6D170200ACA039 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BallisLife/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aaus.BallisLife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B61639611C6D170200ACA039 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BallisLifeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aaus.BallisLifeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BallisLife.app/BallisLife";
+			};
+			name = Debug;
+		};
+		B61639621C6D170200ACA039 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BallisLifeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aaus.BallisLifeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BallisLife.app/BallisLife";
+			};
+			name = Release;
+		};
+		B61639641C6D170200ACA039 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BallisLifeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aaus.BallisLifeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BallisLife;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B61639651C6D170200ACA039 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BallisLifeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aaus.BallisLifeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BallisLife;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B61639301C6D170200ACA039 /* Build configuration list for PBXProject "BallisLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B616395B1C6D170200ACA039 /* Debug */,
+				B616395C1C6D170200ACA039 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B616395D1C6D170200ACA039 /* Build configuration list for PBXNativeTarget "BallisLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B616395E1C6D170200ACA039 /* Debug */,
+				B616395F1C6D170200ACA039 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B61639601C6D170200ACA039 /* Build configuration list for PBXNativeTarget "BallisLifeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B61639611C6D170200ACA039 /* Debug */,
+				B61639621C6D170200ACA039 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B61639631C6D170200ACA039 /* Build configuration list for PBXNativeTarget "BallisLifeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B61639641C6D170200ACA039 /* Debug */,
+				B61639651C6D170200ACA039 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B616392D1C6D170200ACA039 /* Project object */;
+}
