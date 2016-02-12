@@ -14,6 +14,9 @@
 		B61639431C6D170200ACA039 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B61639411C6D170200ACA039 /* LaunchScreen.storyboard */; };
 		B616394E1C6D170200ACA039 /* BallisLifeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B616394D1C6D170200ACA039 /* BallisLifeTests.swift */; };
 		B61639591C6D170200ACA039 /* BallisLifeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61639581C6D170200ACA039 /* BallisLifeUITests.swift */; };
+		B61639691C6D299400ACA039 /* BallParkAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61639681C6D299400ACA039 /* BallParkAnnotation.swift */; };
+		B616396B1C6D2CEB00ACA039 /* BallParkMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B616396A1C6D2CEB00ACA039 /* BallParkMapView.swift */; };
+		B6BCD0C21C6D5E3F00BB9514 /* yes_50x50.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6BCD0C11C6D5E3F00BB9514 /* yes_50x50.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		B61639541C6D170200ACA039 /* BallisLifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BallisLifeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B61639581C6D170200ACA039 /* BallisLifeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallisLifeUITests.swift; sourceTree = "<group>"; };
 		B616395A1C6D170200ACA039 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B61639681C6D299400ACA039 /* BallParkAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BallParkAnnotation.swift; path = ../BallParkAnnotation.swift; sourceTree = "<group>"; };
+		B616396A1C6D2CEB00ACA039 /* BallParkMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BallParkMapView.swift; sourceTree = "<group>"; };
+		B6BCD0C11C6D5E3F00BB9514 /* yes_50x50.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = yes_50x50.jpg; path = ../../../Desktop/yes_50x50.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +103,11 @@
 		B61639371C6D170200ACA039 /* BallisLife */ = {
 			isa = PBXGroup;
 			children = (
+				B6BCD0C11C6D5E3F00BB9514 /* yes_50x50.jpg */,
 				B61639381C6D170200ACA039 /* AppDelegate.swift */,
 				B616393A1C6D170200ACA039 /* ViewController.swift */,
+				B61639681C6D299400ACA039 /* BallParkAnnotation.swift */,
+				B616396A1C6D2CEB00ACA039 /* BallParkMapView.swift */,
 				B616393C1C6D170200ACA039 /* Main.storyboard */,
 				B616393F1C6D170200ACA039 /* Assets.xcassets */,
 				B61639411C6D170200ACA039 /* LaunchScreen.storyboard */,
@@ -231,6 +240,7 @@
 			files = (
 				B61639431C6D170200ACA039 /* LaunchScreen.storyboard in Resources */,
 				B61639401C6D170200ACA039 /* Assets.xcassets in Resources */,
+				B6BCD0C21C6D5E3F00BB9514 /* yes_50x50.jpg in Resources */,
 				B616393E1C6D170200ACA039 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,6 +267,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B616393B1C6D170200ACA039 /* ViewController.swift in Sources */,
+				B61639691C6D299400ACA039 /* BallParkAnnotation.swift in Sources */,
+				B616396B1C6D2CEB00ACA039 /* BallParkMapView.swift in Sources */,
 				B61639391C6D170200ACA039 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -400,8 +412,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BallisLife/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.aaus.BallisLife;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aaus.ballislife;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -411,8 +424,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BallisLife/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.aaus.BallisLife;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aaus.ballislife;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -484,6 +498,7 @@
 				B616395F1C6D170200ACA039 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B61639601C6D170200ACA039 /* Build configuration list for PBXNativeTarget "BallisLifeTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +507,7 @@
 				B61639621C6D170200ACA039 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B61639631C6D170200ACA039 /* Build configuration list for PBXNativeTarget "BallisLifeUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +516,7 @@
 				B61639651C6D170200ACA039 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
