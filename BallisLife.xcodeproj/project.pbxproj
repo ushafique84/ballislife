@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		046BBCD81C6E8D4A0066DCFD /* SoccerBall.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 046BBCD61C6E8D4A0066DCFD /* SoccerBall.JPG */; };
+		046BBCD91C6E8D4A0066DCFD /* SoccerBall50Percent.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 046BBCD71C6E8D4A0066DCFD /* SoccerBall50Percent.jpg */; };
 		B61639391C6D170200ACA039 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61639381C6D170200ACA039 /* AppDelegate.swift */; };
 		B616393B1C6D170200ACA039 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B616393A1C6D170200ACA039 /* ViewController.swift */; };
 		B616393E1C6D170200ACA039 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B616393C1C6D170200ACA039 /* Main.storyboard */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		046BBCD61C6E8D4A0066DCFD /* SoccerBall.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SoccerBall.JPG; sourceTree = "<group>"; };
+		046BBCD71C6E8D4A0066DCFD /* SoccerBall50Percent.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SoccerBall50Percent.jpg; sourceTree = "<group>"; };
 		B61639351C6D170200ACA039 /* BallisLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BallisLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B61639381C6D170200ACA039 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B616393A1C6D170200ACA039 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +107,8 @@
 		B61639371C6D170200ACA039 /* BallisLife */ = {
 			isa = PBXGroup;
 			children = (
+				046BBCD61C6E8D4A0066DCFD /* SoccerBall.JPG */,
+				046BBCD71C6E8D4A0066DCFD /* SoccerBall50Percent.jpg */,
 				B6BCD0C31C6E5EBF00BB9514 /* yes_50x50.jpg */,
 				B61639381C6D170200ACA039 /* AppDelegate.swift */,
 				B616393A1C6D170200ACA039 /* ViewController.swift */,
@@ -239,8 +245,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B61639431C6D170200ACA039 /* LaunchScreen.storyboard in Resources */,
+				046BBCD81C6E8D4A0066DCFD /* SoccerBall.JPG in Resources */,
 				B61639401C6D170200ACA039 /* Assets.xcassets in Resources */,
 				B6BCD0C41C6E5EBF00BB9514 /* yes_50x50.jpg in Resources */,
+				046BBCD91C6E8D4A0066DCFD /* SoccerBall50Percent.jpg in Resources */,
 				B616393E1C6D170200ACA039 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

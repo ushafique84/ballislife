@@ -52,8 +52,8 @@ extension ViewController {
     
     func yesButton()-> UIButton  {
         
-        let image = UIImage(named: "yes_50x50") as UIImage?
-        let button   = UIButton(type: UIButtonType.System) as UIButton
+        let image = UIImage(named: "SoccerBall.JPG") as UIImage?
+        let button   = UIButton(type: UIButtonType.Custom) as UIButton
         button.frame = CGRectMake(100, 100, 100, 100)
         button.setImage(image, forState: .Normal)
         button.addTarget(self, action: "didTapButton", forControlEvents: .PrimaryActionTriggered)
