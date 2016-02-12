@@ -15,6 +15,7 @@ import CoreLocation
 //set class to conform to mkmapview and cllocationmanager delegates
 class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate, UIGestureRecognizerDelegate {
 
+    var myLabel = UILabel(frame: CGRectMake(0, 0, 21, 21))
     @IBOutlet weak var mapView: MKMapView!
     
     // definelocaiton manager property
@@ -108,7 +109,7 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
             locationName = placeMark.addressDictionary?["Name"] as! String
             
         
-            let parkAnnotation = BallParkAnnotation.init(title: locationName, locationName: "somelocation", coordinate: touchMapCoordinate, numberOfPlayers: 1)
+            let parkAnnotation = BallParkAnnotation.init(title: locationName, locationName: "somelocation", coordinate: touchMapCoordinate, numberOfPlayers: 0)
         
             self.mapView.addAnnotation(parkAnnotation)
         }
