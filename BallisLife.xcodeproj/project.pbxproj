@@ -16,7 +16,7 @@
 		B61639591C6D170200ACA039 /* BallisLifeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61639581C6D170200ACA039 /* BallisLifeUITests.swift */; };
 		B61639691C6D299400ACA039 /* BallParkAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61639681C6D299400ACA039 /* BallParkAnnotation.swift */; };
 		B616396B1C6D2CEB00ACA039 /* BallParkMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B616396A1C6D2CEB00ACA039 /* BallParkMapView.swift */; };
-		B6BCD0C21C6D5E3F00BB9514 /* yes_50x50.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6BCD0C11C6D5E3F00BB9514 /* yes_50x50.jpg */; };
+		B6BCD0C41C6E5EBF00BB9514 /* yes_50x50.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6BCD0C31C6E5EBF00BB9514 /* yes_50x50.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +52,7 @@
 		B616395A1C6D170200ACA039 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B61639681C6D299400ACA039 /* BallParkAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BallParkAnnotation.swift; path = ../BallParkAnnotation.swift; sourceTree = "<group>"; };
 		B616396A1C6D2CEB00ACA039 /* BallParkMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BallParkMapView.swift; sourceTree = "<group>"; };
-		B6BCD0C11C6D5E3F00BB9514 /* yes_50x50.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = yes_50x50.jpg; path = ../../../Desktop/yes_50x50.jpg; sourceTree = "<group>"; };
+		B6BCD0C31C6E5EBF00BB9514 /* yes_50x50.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yes_50x50.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,7 @@
 		B61639371C6D170200ACA039 /* BallisLife */ = {
 			isa = PBXGroup;
 			children = (
-				B6BCD0C11C6D5E3F00BB9514 /* yes_50x50.jpg */,
+				B6BCD0C31C6E5EBF00BB9514 /* yes_50x50.jpg */,
 				B61639381C6D170200ACA039 /* AppDelegate.swift */,
 				B616393A1C6D170200ACA039 /* ViewController.swift */,
 				B61639681C6D299400ACA039 /* BallParkAnnotation.swift */,
@@ -240,7 +240,7 @@
 			files = (
 				B61639431C6D170200ACA039 /* LaunchScreen.storyboard in Resources */,
 				B61639401C6D170200ACA039 /* Assets.xcassets in Resources */,
-				B6BCD0C21C6D5E3F00BB9514 /* yes_50x50.jpg in Resources */,
+				B6BCD0C41C6E5EBF00BB9514 /* yes_50x50.jpg in Resources */,
 				B616393E1C6D170200ACA039 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
